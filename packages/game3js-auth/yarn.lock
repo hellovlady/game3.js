@@ -31,6 +31,14 @@
     postcss "7.0.32"
     purgecss "^2.3.0"
 
+"@heroiclabs/nakama-js@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@heroiclabs/nakama-js/-/nakama-js-2.0.1.tgz#a1a5a44353591771dfd7ec387326770172f0be0a"
+  integrity sha512-Z14b0df47u/fhAAlzl9MHYajaAFHy2a62W/gdTNtU9+8DE4VXfWPN4m235SxW7Y+ejr1dbisSw6FNVuYEv5BrQ==
+  dependencies:
+    Base64 "^1.0.1"
+    whatwg-fetch "^2.0.3"
+
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz#d4b3549a5db5de2683e0c1071ab4f140904bbf69"
@@ -153,6 +161,11 @@
   integrity sha512-2XZovu4NwcqmtZtsBR5XYLw18T8cBCnU2USFHTnYLLHz9fkhnoEMoDsqShJIOFsFhn5aJHjweiUUdTrDGujegA==
   dependencies:
     "@types/node" "*"
+
+Base64@^1.0.1:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/Base64/-/Base64-1.2.0.tgz#9ce62001c31c51f90ce91ab768f6fc9b737ab128"
+  integrity sha512-ZjJhVKZWYWbiq9Sf2HqcXS5qLiaHAvJcq3yc+j0gBgIMasMY/hAHxum30QxrXEG13TNUMwZhuWTT3fIFC4UBJw==
 
 acorn-node@^1.6.1:
   version "1.8.2"
@@ -747,9 +760,9 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.1.1:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
+  integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
 mri@^1.1.0:
   version "1.1.6"
@@ -1207,6 +1220,11 @@ util-deprecate@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+
+whatwg-fetch@^2.0.3:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
+  integrity sha512-dcQ1GWpOD/eEQ97k66aiEVpNnapVj90/+R+SXTPYGHpYBBypfKJEQjLrvMZ7YXbKm21gXd4NcuxUTjiv1YtLng==
 
 wrappy@1:
   version "1.0.2"
